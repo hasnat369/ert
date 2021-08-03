@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(26, 25, 25);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(90, 90, 89);
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 110px;
+    height: 140px;
+    border: 3px solid black;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(12, 12, 12);
+}
+
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+    font-weight: bold;    
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: honeydew;
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid rgb(230, 227, 227) 2px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+.left-div{
+      width: 30%;
+      float: left;
+}
+.right-div{
+    color: blanchedalmond;
+    width: 70%;
+    float: left;
+
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+#work-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    color: blanchedalmond;
+    width: 70%;
+    float: left;
+}
+.edu-template-left{
+    float: left;
+    width: 45%;
+
+}
+.edu-template-right{
+   float: left;
+   width: 45%;
+}
+.edu-template-right a{
+    text-decoration: none;
+    color: rgb(38, 179, 245);
+}
+.edu-template-left a{
+    text-decoration: none;
+    color: rgb(27, 178, 238);
+}
+.bottom-container{
+    color: rgb(165, 101, 4);
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: rgb(211, 228, 247);
+text-decoration: none;
+margin: 20px;
+}
+.bottom-container p{
+    margin-top: 20px;
+}
